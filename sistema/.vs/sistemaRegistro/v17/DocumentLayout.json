@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|c:\\users\\stefany paulino\\downloads\\sistema\\sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\presentacion.csproj|solutionrelative:sistema\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A99AB9EA-9D0A-4E1D-9ADD-170FCFD9CB74}|sistema\\sistema.csproj|solutionrelative:sistema\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form9.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeDocumentMoniker": "sistema\\Form9.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeToolTip": "sistema\\Form9.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:31:49.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs",
+              "RelativeDocumentMoniker": "sistema\\Form3.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T13:47:20.583Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Admin.cs",
+              "RelativeDocumentMoniker": "sistema\\Admin.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Admin.cs",
+              "RelativeToolTip": "sistema\\Admin.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T22:58:37.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeDocumentMoniker": "sistema\\Form1.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:16:24.091Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeDocumentMoniker": "sistema\\Form1.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeToolTip": "sistema\\Form1.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwHoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:16:24.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form9.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeDocumentMoniker": "sistema\\Form9.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form9.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T13:47:25.995Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form9.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeDocumentMoniker": "sistema\\Form9.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeToolTip": "sistema\\Form9.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAnwCIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:04:06.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form12.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form12.cs",
+              "RelativeDocumentMoniker": "sistema\\Form12.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form12.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form12.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:26:38.749Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Admin.cs",
+              "RelativeDocumentMoniker": "sistema\\Admin.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Admin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Admin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T22:55:41.058Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form6.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs",
+              "RelativeDocumentMoniker": "sistema\\Form6.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form6.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T23:36:27.925Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form12.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form12.cs",
+              "RelativeDocumentMoniker": "sistema\\Form12.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form12.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form12.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:52:47.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Program.cs",
+              "RelativeDocumentMoniker": "sistema\\Program.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Program.cs",
+              "RelativeToolTip": "sistema\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T23:35:04.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Usuario.cs",
+              "RelativeDocumentMoniker": "sistema\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T22:49:44.958Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Usuario.cs",
+              "RelativeDocumentMoniker": "sistema\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Usuario.cs",
+              "RelativeToolTip": "sistema\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T23:00:54.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs",
+              "RelativeDocumentMoniker": "sistema\\Form2.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs",
+              "RelativeToolTip": "sistema\\Form2.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAvwEoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:26:03.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs",
+              "RelativeDocumentMoniker": "sistema\\Form2.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:42:53.218Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs",
+              "RelativeDocumentMoniker": "sistema\\Form3.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T13:48:05.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs",
+              "RelativeDocumentMoniker": "sistema\\Form3.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form3.cs",
+              "RelativeToolTip": "sistema\\Form3.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAawBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:48:25.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form9.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs",
+              "RelativeDocumentMoniker": "sistema\\Form9.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form9.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form9.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T01:11:41.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form11.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form11.cs",
+              "RelativeDocumentMoniker": "sistema\\Form11.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form11.cs",
+              "RelativeToolTip": "sistema\\Form11.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAnwCsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:23:53.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Form8.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form8.cs",
+              "RelativeDocumentMoniker": "sistema\\Form8.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form8.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form8.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:16:23.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Form11.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form11.cs",
+              "RelativeDocumentMoniker": "sistema\\Form11.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form11.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form11.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:52:38.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeDocumentMoniker": "sistema\\Form1.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeToolTip": "sistema\\Form1.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAiwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T22:33:08.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form7.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form7.cs",
+              "RelativeDocumentMoniker": "sistema\\Form7.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form7.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form7.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T23:53:41.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form6.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs",
+              "RelativeDocumentMoniker": "sistema\\Form6.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form6.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T23:30:40.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Form5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form5.cs",
+              "RelativeDocumentMoniker": "sistema\\Form5.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:47:03.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form6.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs",
+              "RelativeDocumentMoniker": "sistema\\Form6.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form6.cs",
+              "RelativeToolTip": "sistema\\Form6.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:07:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Form7.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form7.cs",
+              "RelativeDocumentMoniker": "sistema\\Form7.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form7.cs",
+              "RelativeToolTip": "sistema\\Form7.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAnwB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T23:59:40.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs",
+              "RelativeDocumentMoniker": "sistema\\Form1.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T21:16:11.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form5.cs",
+              "RelativeDocumentMoniker": "sistema\\Form5.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form5.cs",
+              "RelativeToolTip": "sistema\\Form5.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAawB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:53:04.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form4.cs",
+              "RelativeDocumentMoniker": "sistema\\Form4.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T19:36:40.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Form10.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form10.cs",
+              "RelativeDocumentMoniker": "sistema\\Form10.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form10.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form10.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:17:34.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs",
+              "RelativeDocumentMoniker": "sistema\\Form2.cs",
+              "ToolTip": "C:\\Users\\Stefany Paulino\\Downloads\\sistema\\sistema\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "sistema\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T13:07:52.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
