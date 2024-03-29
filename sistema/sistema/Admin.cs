@@ -15,7 +15,7 @@ namespace sistema
         public Admin(string nombre)
         {
             InitializeComponent();
-            lblmensajeAdmin.Text = nombre;
+            lblmensaje.Text = nombre;
         }
 
         private void Admin_Load(object sender, EventArgs e)
@@ -33,6 +33,23 @@ namespace sistema
 
             // Opcionalmente, puedes ocultar este formulario si ya no lo necesitas
             this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            // cerrar el formulario
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // Minimizar el formulario al hacer clic en pictureBox4
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void lblAdmin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -15,7 +15,24 @@ namespace sistema
         public Usuario(string nombre)
         {
             InitializeComponent();
-            lblmensaje.Text = nombre;
+            lblusuario.Text = nombre;
+        }
+
+        private void Usuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // Minimizar el formulario al hacer clic en pictureBox4
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario
+            this.Close();
         }
     }
 }
