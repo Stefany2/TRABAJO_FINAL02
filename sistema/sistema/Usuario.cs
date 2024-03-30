@@ -34,5 +34,15 @@ namespace sistema
             // Cerrar el formulario
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario actual
+            this.Close();
+
+            // Mostrar el Form1
+            Form10 form10 = new Form10();
+            form10.Show();
+        }
     }
 }
