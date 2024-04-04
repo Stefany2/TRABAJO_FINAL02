@@ -48,8 +48,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +78,24 @@
     </Compile>
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devolcuciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devolcuciones.Designer.cs">
+      <DependentUpon>Devolcuciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factura.Designer.cs">
+      <DependentUpon>factura.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -121,12 +151,6 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form8.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +165,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveedorBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProveedorBuscar.Designer.cs">
+      <DependentUpon>ProveedorBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reclamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reclamos.Designer.cs">
+      <DependentUpon>Reclamos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +185,15 @@
     </Compile>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devolcuciones.resx">
+      <DependentUpon>Devolcuciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factura.resx">
+      <DependentUpon>factura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -177,9 +222,6 @@
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,9 +237,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ProveedorBuscar.resx">
+      <DependentUpon>ProveedorBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reclamos.resx">
+      <DependentUpon>Reclamos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usuario.resx">
       <DependentUpon>Usuario.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

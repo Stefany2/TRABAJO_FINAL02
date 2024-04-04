@@ -16,5 +16,28 @@ namespace sistema
         {
             InitializeComponent();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            // boton cerrar
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // boton minimizar
+            // Minimizar el formulario
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

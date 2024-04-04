@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,8 +23,7 @@ namespace sistema
             
             // Agregar los tipos de usuario al ComboBox al cargar el formulario
             comboBox1.Items.Add("Usuario");
-            // Agregar más tipos de usuario si es necesario
-            comboBox1.SelectedIndex = 0; // Seleccionar el primer elemento por defecto
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -75,8 +75,9 @@ namespace sistema
         {
 
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        
+           
+            private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Agregar los tipos de usuario al ComboBox
             comboBox1.Items.Add("Usuario ");
@@ -113,6 +114,11 @@ namespace sistema
         {
             // Minimizar el formulario al hacer clic en pictureBox4
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Form9_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,5 +16,10 @@ namespace sistema
         {
             InitializeComponent();
         }
+
+        private void Form12_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

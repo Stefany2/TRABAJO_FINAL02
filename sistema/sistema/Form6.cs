@@ -8,6 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ExcelDataReader;
+using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Excel;
+using System.Security.Cryptography;
+using System.IO;
 
 namespace sistema
 {
@@ -22,14 +27,15 @@ namespace sistema
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            // Crear una instancia del nuevo formulario
-            Form7 form7 = new Form7();
+            // Crear una instancia del formulario ProveedorBuscar
+            ProveedorBuscar proveedorBuscarForm = new ProveedorBuscar();
 
-            // Mostrar el nuevo formulario
-            form7.Show();
+            // Mostrar el formulario ProveedorBuscar
+            proveedorBuscarForm.Show();
 
-            // Opcional: Cerrar el formulario actual si es necesario
+            // Cerrar el formulario actual
             this.Close();
+
         }
 
         private void Form6_Load(object sender, EventArgs e)
@@ -71,7 +77,7 @@ namespace sistema
             txtbDireccion.Clear();
             txtbTelefono.Clear();
             txtbCorreo.Clear();
-            
+
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -272,7 +278,7 @@ namespace sistema
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -284,5 +290,103 @@ namespace sistema
             txtbTelefono.Text = "";
             txtbCorreo.Text = "";
         }
+
+        private void btnImportar_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Archivos de Excel|*.xlsx" })
+            {
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        // Crear una aplicación de Excel
+                        Excel.Application excelApp = new Excel.Application();
+                        excelApp.Visible = false;
+
+                        // Crear un nuevo libro de Excel
+                        Workbook wb = excelApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+                        Worksheet ws = (Worksheet)wb.Worksheets[1];
+
+                        // Copiar los encabezados de las columnas
+                        for (int i = 1; i <= dataGridView1.Columns.Count; i++)
+                        {
+                            ws.Cells[1, i] = dataGridView1.Columns[i - 1].HeaderText;
+                        }
+
+                        // Copiar los datos del DataGridView a Excel
+                        for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                        {
+                            for (int j = 0; j < dataGridView1.Columns.Count; j++)
+                            {
+                                // Verificar si el valor de la celda no es null antes de acceder a él
+                                if (dataGridView1.Rows[i].Cells[j].Value != null)
+                                {
+                                    ws.Cells[i + 2, j + 1] = dataGridView1.Rows[i].Cells[j].Value.ToString();
+                                }
+                                else
+                                {
+                                    ws.Cells[i + 2, j + 1] = "";
+                                }
+                            }
+                        }
+
+
+                        // Guardar el libro de Excel en el archivo seleccionado
+                        wb.SaveAs(sfd.FileName);
+                        wb.Close();
+
+                        // Cerrar la aplicación de Excel
+                        excelApp.Quit();
+
+                        MessageBox.Show("Exportación exitosa.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al exportar los datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Abrir la conexión a la base de datos
+                con.Open();
+
+                // Llamar al método ActualizarDataGridView para mostrar los datos en el DataGridView
+                ActualizarDataGridView();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al mostrar datos: " + ex.Message);
+            }
+            finally
+            {
+                // Cerrar la conexión a la base de datos
+                con.Close();
+            }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            // boton cerrar
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            // boton minimizar
+            // Minimizar el formulario
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+    
+

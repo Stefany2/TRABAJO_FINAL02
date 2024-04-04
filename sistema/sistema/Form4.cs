@@ -8,6 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ExcelDataReader;
+using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Excel;
+using System.Security.Cryptography;
+using System.IO;
 
 namespace sistema
 {
@@ -19,7 +24,7 @@ namespace sistema
         }
         // Cadena de conexión a tu base de datos SQL Server
         SqlConnection con = new SqlConnection(@"Data Source=(localdb)\stefany;Initial Catalog=almacen;Integrated Security=True");
-        
+
         private void label7_Click(object sender, EventArgs e)
         {
 
@@ -78,7 +83,7 @@ namespace sistema
             form5.Show();
 
             // Opcional: Cerrar el formulario actual si es necesario
-             this.Close();
+            this.Close();
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -90,10 +95,11 @@ namespace sistema
             comboBox1.Items.Add("Unidad");
             comboBox1.Items.Add("Paquete");
             comboBox1.Items.Add("Litro");
+            comboBox1.Items.Add("Docenas");
+            comboBox1.Items.Add("Cajas");
 
-           
         }
-       
+
         private void btnMenu_Click(object sender, EventArgs e)
         {
             // Cerrar el formulario actual
@@ -115,7 +121,7 @@ namespace sistema
             txtbStock.Enabled = true;
             dateTimePicker1.Enabled = true;
         }
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             // Verificar si se ha seleccionado una fila en el DataGridView
@@ -135,7 +141,7 @@ namespace sistema
                 MessageBox.Show("Por favor, seleccione una fila antes de hacer clic en este botón.");
             }
         }
-              
+
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             try
@@ -203,7 +209,7 @@ namespace sistema
             // Asignar el DataSet como origen de datos del DataGridView
             dataGridView1.DataSource = ds.Tables["Productos"];
         }
-    
+
 
         private void txtbCodigo_TextChanged(object sender, EventArgs e)
         {
@@ -399,7 +405,91 @@ namespace sistema
                 MessageBox.Show("Por favor, seleccione una fila antes de hacer clic en este botón.");
             }
         }
+
+        private void btnImportar_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Archivos de Excel|*.xlsx" })
+            {
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        // Crear una aplicación de Excel
+                        Excel.Application excelApp = new Excel.Application();
+                        excelApp.Visible = false;
+
+                        // Crear un nuevo libro de Excel
+                        Workbook wb = excelApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+                        Worksheet ws = (Worksheet)wb.Worksheets[1];
+
+                        // Copiar los encabezados de las columnas
+                        for (int i = 1; i <= dataGridView1.Columns.Count; i++)
+                        {
+                            ws.Cells[1, i] = dataGridView1.Columns[i - 1].HeaderText;
+                        }
+
+                        // Copiar los datos del DataGridView a Excel
+                        for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                        {
+                            for (int j = 0; j < dataGridView1.Columns.Count; j++)
+                            {
+                                // Verificar si el valor de la celda no es null antes de acceder a él
+                                if (dataGridView1.Rows[i].Cells[j].Value != null)
+                                {
+                                    ws.Cells[i + 2, j + 1] = dataGridView1.Rows[i].Cells[j].Value.ToString();
+                                }
+                                else
+                                {
+                                    ws.Cells[i + 2, j + 1] = "";
+                                }
+                            }
+                        }
+
+
+                        // Guardar el libro de Excel en el archivo seleccionado
+                        wb.SaveAs(sfd.FileName);
+                        wb.Close();
+
+                        // Cerrar la aplicación de Excel
+                        excelApp.Quit();
+
+                        MessageBox.Show("Exportación exitosa.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al exportar los datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // boton cerrar
+            this.Close();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            // boton minimizar
+            // Minimizar el formulario
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
+
+
+
+
+
+        
+
     
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace sistema
 {
     public partial class Form11 : Form
     {
+        // Cadena de conexión a tu base de datos SQL Server
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\stefany;Initial Catalog=almacen;Integrated Security=True");
         public Form11()
         {
             InitializeComponent();
@@ -42,6 +45,21 @@ namespace sistema
 
             // Opcional: Cerrar el formulario actual si es necesario
             this.Close();
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            // Habilitar los campos de texto
+            txtbIDProducto.Enabled = true;
+            txtbCliente.Enabled = true;
+            txtbMovimiento.Enabled = true;
+            txtbSalida.Enabled = true;
+            
+        }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

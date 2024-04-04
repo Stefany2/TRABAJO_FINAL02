@@ -105,6 +105,7 @@ namespace sistema
             logear(this.textBox1.Text, this.textBox2.Text);
             
         }
+       
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

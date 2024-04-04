@@ -12,6 +12,8 @@ namespace sistema
 {
     public partial class Compras : Form
     {
+        // Cadena de conexión a tu base de datos SQL Server
+        string connectionString = @"Data Source=(localdb)\stefany;Initial Catalog = almacen; Integrated Security = True";
         public Compras()
         {
             InitializeComponent();

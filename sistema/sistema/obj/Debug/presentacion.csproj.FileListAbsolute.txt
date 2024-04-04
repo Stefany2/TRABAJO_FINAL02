@@ -11,7 +11,6 @@ C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form3.resou
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form4.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form5.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form6.resources
-C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form7.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form8.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Form9.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Properties.Resources.resources
@@ -21,3 +20,15 @@ C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.exe
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.pdb
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Admin.resources
 C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Usuario.resources
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.ProveedorBuscar.resources
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.dll
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.pdb
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.xml
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\presenta.D2D8CCE5.Up2Date
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Compras.resources
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.factura.resources
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Reclamos.resources
+C:\Users\Stefany Paulino\Downloads\sistema\sistema\obj\Debug\sistema.Devolcuciones.resources
